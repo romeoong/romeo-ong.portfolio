@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Romeo Ong - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="aos/aos.css" />
+</head>
+<body>
+
+  <button id="toggle-theme">🌓 Toggle Theme</button>
+
+  <header class="hero" data-aos="fade-up">
+    <div class="container">
+      <div class="hero-text">
+        <h1>Hello, I'm <span>Romeo Ong</span></h1>
+        <p>A Computer Engineer specializing in Web Development, AI, and Embedded Systems.</p>
+        <a href="#projects" class="cta-button">View My Work</a>
+      </div>
+      <img src="images/profile.jpg" alt="Romeo Ong" class="hero-image" />
+    </div>
+  </header>
+
+  <nav class="navbar" data-aos="fade-down">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m a Computer Engineering graduate from De La Salle Lipa with a passion for building impactful systems — from AI fact-checkers to emergency communication devices.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Gen-AI Fact Checker</h3>
+          <p>Fake news detection system with LM Studio, FAISS, and Streamlit.</p>
+        </div>
+        <div class="project-card">
+          <h3>Currency Classifier</h3>
+          <p>Classifies Philippine peso bills using OpenCV and color segmentation.</p>
+        </div>
+        <div class="project-card">
+          <h3>LoRa Disaster Device</h3>
+          <p>Arduino-based solar-powered emergency device for rural areas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Python</li><li>MATLAB</li><li>OpenCV</li><li>HTML/CSS</li>
+        <li>JavaScript</li><li>WordPress</li><li>Networking</li><li>Prompt Engineering</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:romeo.ong.work@gmail.com">romeo.ong.work@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/romeo-ong-03a794237" target="_blank">/romeo-ong</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Romeo Ong | Powered by GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="aos/aos.js"></script>
+  <script src="script.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
